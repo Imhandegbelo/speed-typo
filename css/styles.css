@@ -1,0 +1,17 @@
+body{
+    background: grey;
+}
+
+h2{
+    padding: 5px 0px 5px 0px
+}
+
+.container{
+    margin-top: 30px;
+}
+
+.instruct{
+    background-color: grey;
+    margin-top: 20px;
+    padding: 5px
+}
