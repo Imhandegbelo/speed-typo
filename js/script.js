@@ -8,6 +8,7 @@ const presentWord = document.querySelector('#Current-word')
 const feedback = document.querySelector('#feedback');
 const seconds = document.querySelector('#seconds')
 const difficulty = document.querySelector('#diff')
+const scoreRecord = document.querySelector('#preScores')
 
 
 // Available levels
@@ -22,7 +23,7 @@ let currentLevel = levels.easy;
 let time = currentLevel;
 let score = 0;
 let isPlaying;
-
+let scorelist =[];
 
 const words = ['javascript', 'nutrition', 'establishment', 'occurrence',
   'significance', 'physically', 'unbearable', 'unbalanced', 'temperament',
@@ -121,3 +122,12 @@ function gameOver() {
     presentScore.innerHTML = 0;
   }
 }
+
+
+// this function is intended to record scores 
+
+// function scores(score) {
+//   if (gameOver()) {
+//     scoreRecord.push(score)
+//   }
+// }
